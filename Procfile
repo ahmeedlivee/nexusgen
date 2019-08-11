@@ -1,1 +1,1 @@
-node main 8
+worker: node main 8
