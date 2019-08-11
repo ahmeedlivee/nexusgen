@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
 const fs = require("fs")
 const client = new Discord.Client()
-const config = require("./config.json")
+const config = require("./package.json")
 
 client.on('ready', () => {
    client.user.setPresence({
